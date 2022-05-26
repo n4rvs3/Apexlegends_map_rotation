@@ -11,6 +11,7 @@ const config = {
   images: {
     domains: ['apexlegendsstatus.com'],
   },
+  swcMinify: false
 };
 
 module.exports = withPWA(config);
